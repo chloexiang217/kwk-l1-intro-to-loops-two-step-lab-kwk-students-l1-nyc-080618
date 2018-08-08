@@ -53,7 +53,7 @@ def break_dance
     if steps == 6
       break
     elsif steps < 6
-      steps = steps + 1
+      steps == steps + 1
     elsif steps%2 == 0
       puts "Left"
     elsif steps%2 !== 0
